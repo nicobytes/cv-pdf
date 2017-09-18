@@ -10,29 +10,36 @@ export const PERSON = {
     year: 1993,
     location: 'Bogota, Colombia'
   },
-  experience: [{
-      company: 'Duety',
-      position: 'Technical Team Lead',
-      timeperiod: 'desde Agosto 2016 - Julio 2017',
-      description: 'Líder técnico y desarrollador principal de la aplicación para Android y IOS con Ionic/Angular, encargado de la organización del equipo de trabajo y lanzamientos por parte del equipo de Frontend y Backend. '
+  experience: [
+    {
+      company: 'Pruebas unitarias en EscuelaIT',
+      position: 'Profesor',
+      timeperiod: 'Julio 2017',
+      description: 'Dicte un curso de pruebas unitarias para aplicaciones desarrolladas con Angular para EscuelaIT empresa de España.'
     },
     {
-      company: 'SponzorMe',
-      position: 'Frontend Developer',
-      timeperiod: 'Octubre 2015 - Septiembre 2016',
-      description: 'Desarrollador de la aplicación para Android y IOS con Ionic/Angular, aplicación encargada de gestionar patrocinios para eventos y pagos del mismo por medio de la aplicación.'
+      company: 'Angular + Redux en DevCode',
+      position: 'Profesor',
+      timeperiod: 'Agosto 2017',
+      description: 'Dicte curso enfocado implementar Redux en Angular usando ngrx para DevCode empresa en Peru.'
     },
     {
-      company: '3dementes',
-      position: 'Frontend Developer',
-      timeperiod: 'Octubre 2013 - Septiembre 2015',
-      description: 'Desarrollador de aplicaciones web con Django/Python y comunicación de ellas por medio de REST API y Angular.'
+      company: '¿Qué son las PWA?',
+      position: 'Conferensista',
+      timeperiod: 'Junio 2017',
+      description: 'Conferencia sobre las ventajas de las aplicaciones web progresivas en el Google IO La Paz, Bolivia.'
     },
     {
-      company: 'Omega Web Systems',
-      position: 'Web Developer',
-      timeperiod: 'Febrero 2010 - Enero 2011',
-      description: 'Construcción de sitios web  con Html, Css y Javascript.'
+      company: 'GraphQL y Python/Django',
+      position: 'Conferensista',
+      timeperiod: 'Junio 2017',
+      description: 'Implementación de un webService con GraphQL y Python/Django (+ Docker).'
+    },
+    {
+      company: 'Primer lugar en maratón de programación',
+      position: 'Premio',
+      timeperiod: 'Noviembre 2012',
+      description: 'Participo y gano la maratón interna de programación en la Universidad Minuto de Dios en la categoría: Avanzados'
     }
   ],
   education: [{

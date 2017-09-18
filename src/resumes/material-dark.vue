@@ -13,19 +13,7 @@
       </div>
       <div class="text">
         <ul>
-          <li> Born {{person.birth.year}} in {{person.birth.location}}</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="item">
-      <div class="icon">
-        <i class="material-icons">location_city</i>
-      </div>
-      <div class="text">
-        <ul>
-          <li>{{person.contact.street}}</li>
-          <li>{{person.contact.city}}</li>
+          <li> Nacido en {{person.birth.year}} de {{person.birth.location}}</li>
         </ul>
       </div>
     </div>
@@ -96,6 +84,7 @@
     <div class="title">
       <h2>{{person.name.first}} {{person.name.middle}} {{person.name.last}}</h2>
       <div>{{person.position}}</div>
+      <div class="text"><p>Soy desarrollador web especializado en el área de FrontEnd & HybripApps, enfocado en aprendizaje de JS y al desarrollo de apps con Angular y Ionic.</p></div>
     </div>
 
     <div class="section-headline">{{ lang.headings.experience }}</div>
@@ -108,14 +97,14 @@
         </p>
       </div>
     </div>
-    <div class="section-headline">{{ lang.headings.education }}</div>
+    <!--<div class="section-headline">{{ lang.headings.education }}</div>
     <div class="block" v-for="education in person.education">
       <div class="block-helper"></div>
       <div class="headline">{{education.degree}}</div>
       <p class="info">
         {{education.timeperiod}}, {{education.description}}
       </p>
-    </div>
+    </div>-->
   </div>
 
   <div style="clear:both;"></div>
@@ -187,6 +176,28 @@ a {
     -webkit-margin-end:0;
     padding-top:0;
     text-transform:uppercase;
+    opacity:0.8;
+  }
+  div.text {
+    margin-top:-5px;
+    margin-top:0;
+    margin:0;
+    padding:0;
+    line-height:15pt;
+    font-weight:300;
+    font-weight:500;
+    letter-spacing:2px;
+    letter-spacing:3px;
+    color:black;
+    color:rgba(0,0,0,0.7);
+    display:block;
+    font-size:0.67em;
+    font-size:10pt;
+    -webkit-margin-before:2.33em;
+    -webkit-margin-start:0;
+    -webkit-margin-end:0;
+    padding-top:0;
+    text-transform:none;
     opacity:0.8;
   }
 }

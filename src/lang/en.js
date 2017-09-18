@@ -1,10 +1,10 @@
 /* eslint-disable */
 const en = {
   headings: {
-    contact: 'Contact',
-    experience: 'Experience',
+    contact: 'Contacto',
+    experience: 'Experiencia Laboral',
     education: 'Education',
-    skills: 'Skills'
+    skills: 'Hablidades'
   }
 };
 export default en;
