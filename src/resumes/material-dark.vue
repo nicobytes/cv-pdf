@@ -84,7 +84,7 @@
     <div class="title">
       <h2>{{person.name.first}} {{person.name.middle}} {{person.name.last}}</h2>
       <div>{{person.position}}</div>
-      <div class="text"><p>Soy desarrollador web especializado en el área de FrontEnd & HybripApps, enfocado en aprendizaje de JS y al desarrollo de apps con Angular y Ionic.</p></div>
+      <div class="text"><p>Soy desarrollador web especializado en el área de FrontEnd & HybripApps, enfocado en JS/Python y desarrollo de apps con Angular, Ionic y Django.</p></div>
     </div>
 
     <div class="section-headline">{{ lang.headings.experience }}</div>
@@ -198,7 +198,8 @@ a {
     -webkit-margin-end:0;
     padding-top:0;
     text-transform:none;
-    opacity:0.8;
+    opacity:1;
+    text-align: justify;
   }
 }
 .section-headline {
@@ -233,6 +234,7 @@ p {
   font-weight:300;
   font-size:10pt;
   line-height:17pt;
+  text-align: justify;
 }
 .m_box {
   box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);

@@ -10,29 +10,36 @@ export const PERSON = {
     year: 1993,
     location: 'Bogota, Colombia'
   },
-  experience: [{
+  experience: [
+    {
       company: 'Duety',
-      position: 'Technical Team Lead',
-      timeperiod: 'desde Agosto 2016 - Julio 2017',
-      description: 'Líder técnico y desarrollador principal de la aplicación para Android y IOS con Ionic/Angular, encargado de la organización del equipo de trabajo y lanzamientos por parte del equipo de Frontend y Backend. '
+      position: 'App',
+      timeperiod: 'Lanzamiento Julio 2016',
+      description: 'Aplicación social para parejas con más de 200 usuarios registrados cada mes, desarrollada con Ionic y por el lado de Backend usando Python/Django en Azure. http://www.duety.co/'
     },
     {
       company: 'SponzorMe',
-      position: 'Frontend Developer',
-      timeperiod: 'Octubre 2015 - Septiembre 2016',
-      description: 'Desarrollador de la aplicación para Android y IOS con Ionic/Angular, aplicación encargada de gestionar patrocinios para eventos y pagos del mismo por medio de la aplicación.'
+      position: 'App',
+      timeperiod: 'Lanzamiento Febrero 2015',
+      description: 'Aplicación de transacciones de pago para patrocinio de eventos.'
     },
     {
-      company: '3dementes',
-      position: 'Frontend Developer',
-      timeperiod: 'Octubre 2013 - Septiembre 2015',
-      description: 'Desarrollador de aplicaciones web con Django/Python y comunicación de ellas por medio de REST API y Angular.'
+      company: 'Generali Colombia',
+      position: 'App',
+      timeperiod: 'Lanzamiento Abril 2017',
+      description: 'Aplicación para consultas de seguros de automoviles y gestión de procesos internos para clientes con seguros.'
     },
     {
-      company: 'Omega Web Systems',
-      position: 'Web Developer',
-      timeperiod: 'Febrero 2010 - Enero 2011',
-      description: 'Construcción de sitios web  con Html, Css y Javascript.'
+      company: 'Ion-Book',
+      position: 'Open-source',
+      timeperiod: 'Febrero 2016',
+      description: 'Creador de ion-book.com, sitio enfocado al aprendizaje y buenas prácticas en desarrollo de apps con Ionic/Angular. https://goo.gl/5a6zUv'
+    },
+    {
+      company: 'TodoMVC (Angular + Redux)',
+      position: 'Open-source',
+      timeperiod: 'Septiembre 2017',
+      description: 'Implementación Redux con Ngrx para Angular en una TodoApp https://github.com/nicobytes/todo-app-ngrx'
     }
   ],
   education: [{

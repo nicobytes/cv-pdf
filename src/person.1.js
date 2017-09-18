@@ -10,36 +10,29 @@ export const PERSON = {
     year: 1993,
     location: 'Bogota, Colombia'
   },
-  experience: [
-    {
+  experience: [{
       company: 'Duety',
-      position: 'App',
-      timeperiod: 'Lanzamiento Julio 2016',
-      description: 'Aplicación social para parejas con más de 200 usuarios registrados cada mes, la aplicación esta desarrollada con Ionic y el Backend usando Python/Django en Azure. http://www.duety.co/'
+      position: 'Technical Team Lead',
+      timeperiod: 'Agosto 2016 - Julio 2017',
+      description: 'Líder técnico y principal desarrollador de la aplicación para Android y IOS con Ionic/Angular, encargado de la organización del flujo de trabajo y lanzamientos por parte del equipo de Frontend y Backend.'
     },
     {
       company: 'SponzorMe',
-      position: 'App',
-      timeperiod: 'Lanzamiento Febrero 2015',
-      description: 'Aplicación de transacciones de pago para patrocinio de eventos.'
+      position: 'Frontend Developer',
+      timeperiod: 'Octubre 2015 - Septiembre 2016',
+      description: 'Desarrollador de la aplicación para Android y IOS con Ionic/Angular, encargada de gestionar patrocinios para eventos y pagos del mismo.'
     },
     {
-      company: 'Generali Colombia',
-      position: 'App',
-      timeperiod: 'Lanzamiento Abril 2017',
-      description: 'Aplicación para consultas de seguros de automoviles y gestión de procesos internos para clientes con seguros.'
+      company: '3dementes',
+      position: 'FullStack Developer',
+      timeperiod: 'Octubre 2013 - Septiembre 2015',
+      description: 'Desarrollador de aplicaciones web con Django/Python y Angular utilizando REST API para el intercambio de datos.'
     },
     {
-      company: 'Ion-Book',
-      position: 'Open-source',
-      timeperiod: 'Febrero 2016',
-      description: 'Creador de ion-book.com sitio enfocado al aprendizaje y buenas prácticas en desarrollo de apps con Ionic/Angular. https://goo.gl/5a6zUv'
-    },
-    {
-      company: 'TodoMVC (Angular + Redux)',
-      position: 'Open-source',
-      timeperiod: 'Septiembre 2017',
-      description: 'Implementación Redux con Ngrx para Angular en una TodoApp https://github.com/nicobytes/todo-app-ngrx'
+      company: 'Omega Web Systems',
+      position: 'Web Developer',
+      timeperiod: 'Febrero 2010 - Enero 2011',
+      description: 'Construcción de sitios web con Html, Css y Javascript.'
     }
   ],
   education: [{

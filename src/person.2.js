@@ -12,25 +12,25 @@ export const PERSON = {
   },
   experience: [
     {
-      company: 'Pruebas unitarias en EscuelaIT',
+      company: 'Pruebas unitarias en EscuelaIT - España',
       position: 'Profesor',
       timeperiod: 'Julio 2017',
-      description: 'Dicte un curso de pruebas unitarias para aplicaciones desarrolladas con Angular para EscuelaIT empresa de España.'
+      description: 'Dicte un curso de pruebas unitarias para aplicaciones desarrolladas con Angular.'
     },
     {
-      company: 'Angular + Redux en DevCode',
+      company: 'Angular + Redux en DevCode - Peru',
       position: 'Profesor',
       timeperiod: 'Agosto 2017',
-      description: 'Dicte curso enfocado implementar Redux en Angular usando ngrx para DevCode empresa en Peru.'
+      description: 'Dicte curso enfocado implementar Redux en Angular usando ngrx.'
     },
     {
-      company: '¿Qué son las PWA?',
+      company: '¿Qué son las PWA? - Bolivia',
       position: 'Conferensista',
       timeperiod: 'Junio 2017',
-      description: 'Conferencia sobre las ventajas de las aplicaciones web progresivas en el Google IO La Paz, Bolivia.'
+      description: 'Conferencia sobre las ventajas de las aplicaciones web progresivas en el Google IO.'
     },
     {
-      company: 'GraphQL y Python/Django',
+      company: 'GraphQL y Python/Django - Bolivia',
       position: 'Conferensista',
       timeperiod: 'Junio 2017',
       description: 'Implementación de un webService con GraphQL y Python/Django (+ Docker).'
@@ -39,7 +39,7 @@ export const PERSON = {
       company: 'Primer lugar en maratón de programación',
       position: 'Premio',
       timeperiod: 'Noviembre 2012',
-      description: 'Participo y gano la maratón interna de programación en la Universidad Minuto de Dios en la categoría: Avanzados'
+      description: 'Participe y gané la maratón interna de programación en la Universidad Minuto de Dios en la categoría: Avanzados'
     }
   ],
   education: [{

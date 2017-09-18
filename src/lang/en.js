@@ -2,7 +2,7 @@
 const en = {
   headings: {
     contact: 'Contacto',
-    experience: 'Experiencia Laboral',
+    experience: 'Proyectos y Portafolio',
     education: 'Education',
     skills: 'Hablidades'
   }
